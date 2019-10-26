@@ -9,6 +9,7 @@ router.get('/vans', function(req, res){
 
 //Add a new van to the db
 router.post('/vans', function(req, res){
+    console.log(req.body);
     res.send({type: 'POST'});
 
 });
